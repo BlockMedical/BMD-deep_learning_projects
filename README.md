@@ -18,6 +18,7 @@ For our selected example above (Imagenet), you can go to  https://ipfs.blcksync.
 If you click on `Access`, you will be prompt to use BMD to access the dataset. Once you use your BMD, you should be redirected to a page that provides you the access link and a list of files that are part of the imagenet. You will notice that the imagenet has been grouped images by categories based on `WordNet ID`(http://image-net.org/synset). With the link, it contains a `Hash` in the URL itself. If you don't use the Hash in the link, you can also just cherry-pick individual files to download. In order to bulk download all files, the `Hash` on the parent URL link (the one in the address bar in your browser) can be imported by our [BMD Orion App](https://github.com/BlockMedical/Orion) to download them for you. This may take awhile depending on your network bandwidth and other variables. Once the data is downloaded, you could access those files and apply your favorite algorithm to train and process them. Here is a screenshot on how to use the BMD Orion App to import and download these files to your local machine.
 
 
+![Imagenet Download Instructions with Orion](https://github.com/BlockMedical/BMD-deep_learning_projects/raw/master/images/Orion_Manual_imgnet.png)
 
 
 
